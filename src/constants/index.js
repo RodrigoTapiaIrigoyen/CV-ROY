@@ -1,28 +1,24 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  aws,
+  nextjs,
+ 
+  
 } from "../assets";
 
 export const navLinks = [
@@ -54,10 +50,11 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "AWS",
+    icon: "src/assets/tech/aws.png", // URL de la imagen de AWS
   },
 ];
+
 
 const technologies = [
   {
@@ -81,8 +78,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "AWS",
+    icon: aws, // Aquí se usa el logo de AWS
   },
   {
     name: "Tailwind CSS",
@@ -97,8 +94,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next.js", // Cambiamos Three JS por Next.js
+    icon: nextjs, // Aquí se usa el logo de Next.js
   },
   {
     name: "git",
@@ -108,88 +105,75 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
+
+ 
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Junior Web Developer",
+    company_name: "CodeCrafters",
+    icon: web, // Asigna el ícono que prefieras para esta empresa
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Supporting the development of web applications using JavaScript, HTML, CSS, and React.",
+      "Collaborating with senior developers to resolve issues and improve existing features.",
+      "Assisting in implementing responsive designs for better mobile compatibility.",
+      "Learning best practices in code reviews and applying feedback from senior team members.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Junior Backend Developer",
+    company_name: "Tech Innovators",
+    icon: backend, // Puedes reemplazar este ícono por uno relevante
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained APIs using Node.js and Express.",
+      "Worked closely with the frontend team to integrate backend services.",
+      "Learned database management and performed CRUD operations with MongoDB.",
+      "Participated in team meetings and contributed to project planning.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Development Intern",
+    company_name: "Freelance",
+    icon: web, // Asigna otro ícono o reutiliza
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2022 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built personal projects to improve my skills in web development.",
+      "Gained experience with version control using Git and GitHub.",
+      "Implemented responsive web designs using Tailwind CSS.",
+      "Created simple React applications to solidify my understanding of the framework.",
     ],
   },
 ];
+
+
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    "Después de que Rodrigo colaboró con nosotros, logramos mejorar la velocidad de carga de nuestro sitio en un 30%. ¡Fue un gran aporte para nuestro equipo!",
+    name: "Sara Caseres",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Rodrigo demostró ser un desarrollador web comprometido y siempre dispuesto a aprender. Nos ayudó a optimizar varias funciones de nuestro sitio web.",
+    name: "Cristian Lopez",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    "Es raro encontrar a alguien tan apasionado por mejorar sus habilidades como Rodrigo. Su actitud proactiva marcó una gran diferencia en nuestro equipo.",
+    name: "Lisa Blanca",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -216,7 +200,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Satanasrt",
   },
   {
     name: "Job IT",
@@ -237,7 +221,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Satanasrt",
   },
   {
     name: "Trip Guide",
@@ -258,7 +242,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Satanasrt",
   },
 ];
 

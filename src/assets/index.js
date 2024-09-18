@@ -29,6 +29,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import aws from "../assets/tech/aws.png";
+import nextjs from "../assets/tech/threejs.svg"; // Si cambias la imagen de Next.js, usa el nombre correcto.
 
 export {
   logo,
@@ -59,4 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  aws, // AWS icon
+  nextjs, // Next.js icon
 };
+
